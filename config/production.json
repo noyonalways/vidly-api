@@ -1,0 +1,5 @@
+{
+  "appName": "Vidly Movie API Server - Production",
+  "appVersion": "1.0.0",
+  "port": "VIDLY_APP_PORT"
+}

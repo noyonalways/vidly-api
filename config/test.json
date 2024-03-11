@@ -1,0 +1,6 @@
+{
+  "jwtSecretKey": "JWT_SECRET_KEY",
+  "slatGen": "HASH_SECRET_SALT",
+  "dbUri": "mongodb://localhost:27017/vidly-test",
+  "port": "VIDLY_APP_PORT"
+}

@@ -1,0 +1,37 @@
+# ---- Get Customers ----
+GET http://localhost:5000/api/customers
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ0YjJhYjYxN2JlOWEyMWEyYTU2ZjAiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDg0NDg0NjJ9.yg6DVNLRTHKtw9YbPUIBARWSSDDmzNFNRAX-j3z1cfE
+
+###
+
+# ---- Get a spefic Customer by Id ----
+GET http://localhost:5000/api/customers/65cd2e464533aa4a50ed6094
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ0YjJhYjYxN2JlOWEyMWEyYTU2ZjAiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDg0NDg0NjJ9.yg6DVNLRTHKtw9YbPUIBARWSSDDmzNFNRAX-j3z1cfE
+
+###
+
+# ---- Create Customer ----
+POST http://localhost:5000/api/customers
+Content-Type: application/json
+
+{
+  "name": "Mick",
+  "phone": "555-555-444"
+}
+
+###
+
+# ---- Update a spefic Customer by Id ----
+PUT http://localhost:5000/api/customers/65cd2e634533aa4a50ed6096
+Content-Type: application/json
+
+{
+  "name": "Reks",
+  "phone": "000-444-888",
+  "isGold": false
+}
+
+###
+
+# ---- Delete a spefic Customer by Id ----
+DELETE http://localhost:5000/api/customers/65cd2f0ce14f147a57b93124

@@ -1,0 +1,36 @@
+# ---- Get Rentals ----
+GET http://localhost:5000/api/rentals
+
+###
+
+# ---- Get a spefic Rental by Id ----
+GET http://localhost:5000/api/rentals/65d056217325b630e69118c7
+
+###
+
+# ---- Create Rental ----
+POST http://localhost:5000/api/rentals
+Content-Type: application/json
+
+{
+  "customer": "65cd2e634533aa4a50ed6096",
+  "movie": "65cfb65311f56b1cb2f48e76"
+}
+
+###
+
+# # ---- Update a spefic Renatal by Id ----
+# PUT http://localhost:5000/api/movies/65cfb69711f56b1cb2f48e7b
+# Content-Type: application/json
+
+# {
+#   "title": "Doraemon Jadui Tapu",
+#   "genre": "65cd154dd40bf03952e2c994",
+#   "numberInStock": 5,
+#   "dailyRentalRate": 5
+# }
+
+# ###
+
+# # ---- Delete a spefic Rental by Id ----
+# DELETE http://localhost:5000/api/movies/65cfb7cc4ca6eaf363d9e062

@@ -1,0 +1,38 @@
+# ---- Get Movies ----
+GET http://localhost:5000/api/movies
+
+###
+
+# ---- Get a spefic Movie by Id ----
+GET http://localhost:5000/api/movies/65cfb69711f56b1cb2f48e7b
+
+###
+
+# ---- Create Movie ----
+POST http://localhost:5000/api/movies
+Content-Type: application/json
+
+{
+  "title": "Doraemon test",
+  "genre": "65cd154dd40bf03952e2c994",
+  "numberInStock": 5,
+  "dailyRentalRate": 5
+}
+
+###
+
+# ---- Update a spefic Movie by Id ----
+PUT http://localhost:5000/api/movies/65cfb65311f56b1cb2f48e76
+Content-Type: application/json
+
+{
+  "title": "Test Movie",
+  "genre": "65cd13d324420bb8b58dca1a",
+  "numberInStock": 5,
+  "dailyRentalRate": 0
+}
+
+###
+
+# ---- Delete a spefic Movie by Id ----
+DELETE http://localhost:5000/api/movies/65d0526c85e1f337e7614a1d
