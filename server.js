@@ -23,7 +23,7 @@ mongoose
     console.log(err);
   });
 
-server.listen(5000, () => {
+server.listen(port, () => {
   console.log(`Welcome to -- ${process.env.APP_NAME}`);
   console.log(`Server is listening on http://localhost:${5000}`);
 });
