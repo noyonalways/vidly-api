@@ -1,5 +1,6 @@
 {
   "jwtSecretKey": "JWT_SECRET_KEY",
   "slatGen": "HASH_SECRET_SALT",
-  "port": "VIDLY_APP_PORT"
+  "port": "VIDLY_APP_PORT",
+  "dbUri": "DB_URI"
 }
