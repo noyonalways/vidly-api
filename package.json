@@ -1,5 +1,5 @@
 {
-  "name": "vidly-app",
+  "name": "vidly-api",
   "version": "1.0.0",
   "description": "A Movie api server application by using the NodeJS.",
   "main": "server.js",
