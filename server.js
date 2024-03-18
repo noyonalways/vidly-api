@@ -12,6 +12,8 @@ const port = config.get("port") || 3000;
  * ---- DB Connection ----
  */
 const db = config.get("dbUri");
+// for restarts the application by using the volume mount bindings in windows need this command:
+// nodemon -L <root-app-file>.js -L means --legacy-watch
 
 mongoose
   .connect(db, {

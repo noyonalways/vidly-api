@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
+    "dev": "nodemon -L server.js",
     "test": "jest",
     "test:watch": "jest --forceExit --verbose --detectOpenHandles  --watchAll --maxWorkers=1 --coverage",
     "test:coverage": "jest --coverage"
