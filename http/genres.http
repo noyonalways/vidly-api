@@ -16,10 +16,10 @@ GET http://localhost:5000/api/genres/65cd13bb24420bb8b58dca17
 # ---- Create Genere ----
 POST http://localhost:5000/api/genres
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ0YjJhYjYxN2JlOWEyMWEyYTU2ZjAiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDg0NDg0NjJ9.yg6DVNLRTHKtw9YbPUIBARWSSDDmzNFNRAX-j3z1cfE
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZjMGQ2YWNkNDVlN2NjNzczZDQ2ZDIiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MTEwMTc1MDd9.6hdvRKvVQVMiAFvEtrCiXFK3HKZoAv37H8YsPkVe4aU
 
 {
-  "name": "Shortfilm"
+  "name": "Animation"
 }
 
 ###

@@ -4,8 +4,8 @@ POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 {
-  "name": "Rahman",
-  "email": "rahman@example.com",
+  "name": "Noyon",
+  "email": "noyon@example.com",
   "password": "123456"
 }
 
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 GET http://localhost:5000/api/auth/me
 Content-Type: application/json
-x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWQ0YjJhYjYxN2JlOWEyMWEyYTU2ZjAiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDg0NDg0NjJ9.yg6DVNLRTHKtw9YbPUIBARWSSDDmzNFNRAX-j3z1cfE
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZjMGI5ZmRhODgxY2VmOTVmZmQ1YTIiLCJpc0FkbWluIjpmYWxzZSwiaWF0IjoxNzExMDE2OTI1fQ.Ny1L2mZCkVNfMdcyk_O-5Kq0QB5EmPqRqLdntP6sMiA

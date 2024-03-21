@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  api:
+    build: ./vidly-api
+    container_name: vidly_api_c
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./vidly-api:/app
+      - /app/node_modules
+    environment:
+      DB_URI: mongodb://db/vidly
+  db:
+    image: mongo:4.0-xenial
+    container_name: vidly_db_c
+    ports:
+      - "27017:27017"
+    volumes:
+      - vidly-app:/data/db
+
+volumes:
+  vidly-app:

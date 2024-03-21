@@ -12,8 +12,8 @@ async function auth(req, res, next) {
   try {
     const decoded = jwt.verify(token, config.get("jwtSecretKey"));
     // TODO: comment out again when testing is complete
-    /* const user = await findByProperty("_id", decoded._id);
-    if (!user) return res.status(401).json({ error: "Unauthorized" }); */
+    const user = await findByProperty("_id", decoded._id);
+    if (!user) return res.status(401).json({ error: "Unauthorized" });
 
     req.user = decoded;
     next();
